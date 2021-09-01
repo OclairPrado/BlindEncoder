@@ -11,8 +11,8 @@ Classe de apoio para transformar dados categóricos que estejam em formato tabul
    <li>categories_ 
 
 ## Exemplos:
-<p>dict = {}
-<p>dict[1] = ['abc','bcd','cde']
+<l>dict = {}
+<l>dict[1] = ['abc','bcd','cde']
 <p>dict[2] = ['def','efg','fgh']
 <p>dict[3] = ['ghi','hij','ijk'] 
 <p>print(dict)
