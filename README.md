@@ -11,13 +11,13 @@ Classe de apoio para transformar dados categóricos que estejam em formato tabul
    <li>categories_ 
 
 ## Exemplos:
-#### dict = {}
-#### dict[1] = ['abc','bcd','cde']
-#### dict[2] = ['def','efg','fgh']
-#### dict[3] = ['ghi','hij','ijk'] 
-### print(dict)
-### >>> {1: ['abc', 'bcd', 'cde'], 2: ['def', 'efg', 'fgh'], 3: ['ghi', 'hij', 'ijk']}
-### df = pd.DataFrame(dict)
+<p>dict = {}
+<p>dict[1] = ['abc','bcd','cde']
+<p>dict[2] = ['def','efg','fgh']
+<p>dict[3] = ['ghi','hij','ijk'] 
+<p>print(dict)
+<p>>>> {1: ['abc', 'bcd', 'cde'], 2: ['def', 'efg', 'fgh'], 3: ['ghi', 'hij', 'ijk']}
+<p>df = pd.DataFrame(dict)
 
 ### benc. = BlindEncoder()
 ### benc.fit(df)
