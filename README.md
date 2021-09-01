@@ -3,11 +3,12 @@ Classe de apoio para transformar dados categóricos que estejam em formato tabul
 
 
 ## Métodos: 
-   fit()
-   transform()
-   inverse_transform()
+   <li>fit()
+   <li>transform()
+   <li>inverse_transform()
 
-## Atributo: categories_ 
+## Atributo: 
+      <li>categories_ 
 
 ## Exemplos:
 dict = {}
