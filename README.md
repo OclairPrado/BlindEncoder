@@ -11,22 +11,22 @@ Classe de apoio para transformar dados categóricos que estejam em formato tabul
    <li>categories_ 
 
 ## Exemplos:
-<l>dict = {}
-<l>dict[1] = ['abc','bcd','cde']
-<l>dict[2] = ['def','efg','fgh']
-<l>dict[3] = ['ghi','hij','ijk'] 
-<l>print(dict)
-<l>>>> {1: ['abc', 'bcd', 'cde'], 2: ['def', 'efg', 'fgh'], 3: ['ghi', 'hij', 'ijk']}
-<l>df = pd.DataFrame(dict)
+<p>dict = {}
+<p>dict[1] = ['abc','bcd','cde']
+<p>dict[2] = ['def','efg','fgh']
+<p>dict[3] = ['ghi','hij','ijk'] 
+<p>print(dict)
+<p>>>> {1: ['abc', 'bcd', 'cde'], 2: ['def', 'efg', 'fgh'], 3: ['ghi', 'hij', 'ijk']}
+<p>df = pd.DataFrame(dict)
 
-<l> benc. = BlindEncoder()
-<l> benc.fit(df)
-<l> novo_df = benc.transform(df)
-<l> print(novo_df)
-<l> >>> {0: {0: 0, 1: 1, 2: 2}, 1: {0: 3, 1: 4, 2: 5}, 2: {0: 6, 1: 7, 2: 8}}
-<l> print(benc.categories_)
-<l> >>> {'ABC': 0, 'BCD': 1, 'CDE': 2, 'DEF': 3, 'EFG': 4, 'FGH': 5, 'GHI': 6, 'HIJ': 7, 'IJK': 8, 'DESCONHECIDO': 10}
+<p> benc. = BlindEncoder()
+<p> benc.fit(df)
+<p> novo_df = benc.transform(df)
+<p> print(novo_df)
+<p> >>> {0: {0: 0, 1: 1, 2: 2}, 1: {0: 3, 1: 4, 2: 5}, 2: {0: 6, 1: 7, 2: 8}}
+<p> print(benc.categories_)
+<p> >>> {'ABC': 0, 'BCD': 1, 'CDE': 2, 'DEF': 3, 'EFG': 4, 'FGH': 5, 'GHI': 6, 'HIJ': 7, 'IJK': 8, 'DESCONHECIDO': 10}
 
 ## Tentativa de usar pandas.factorize() resulta em erro:
-<l> pd.factorize(df)
-<l> >>> ValueError: Buffer has wrong number of dimensions (expected 1, got 2)
+<p> pd.factorize(df)
+<p> >>> ValueError: Buffer has wrong number of dimensions (expected 1, got 2)
