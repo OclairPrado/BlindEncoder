@@ -11,10 +11,10 @@ Classe de apoio para transformar dados categóricos que estejam em formato tabul
    <li>categories_ 
 
 ## Exemplos:
-### dict = {}
-### dict[1] = ['abc','bcd','cde']
-### dict[2] = ['def','efg','fgh']
-### dict[3] = ['ghi','hij','ijk'] 
+#### dict = {}
+#### dict[1] = ['abc','bcd','cde']
+#### dict[2] = ['def','efg','fgh']
+#### dict[3] = ['ghi','hij','ijk'] 
 ### print(dict)
 ### >>> {1: ['abc', 'bcd', 'cde'], 2: ['def', 'efg', 'fgh'], 3: ['ghi', 'hij', 'ijk']}
 ### df = pd.DataFrame(dict)
