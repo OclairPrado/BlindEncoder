@@ -7,8 +7,8 @@ Classe de apoio para transformar dados categóricos que estejam em formato tabul
    <li>transform()
    <li>inverse_transform()
 
-## Atributo: 
-      <li>categories_ 
+## Atributo:
+   <li>categories_ 
 
 ## Exemplos:
 dict = {}
