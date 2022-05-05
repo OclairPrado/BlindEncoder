@@ -1,6 +1,6 @@
 # NOVA VERSÃO DANIEL
 class BlindEncoder:
-  categories_ = dict()
+  categories_ = {}
     
     
   def fit(self, df):
